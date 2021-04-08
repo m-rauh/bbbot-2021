@@ -3,7 +3,7 @@
 
 ### Intro
 
-Queremos automatizar a votação no BBB. No passado isso era possível usando Selenium (navegador pronto para esse tipo de função), porém o Selenium estava automaticamente o captcha e exigindo preenchimento do mesmo. A solução então foi um robô que encontrasse imagens na tela e clicasse, em outras palavras, um simulador do clique humano, só que sem precisarmos operar o mouse. Não trabalhaos em nenhuma solução em segundo plano, portanto, para usar a aplicação você não pode mexer na tela.
+Queremos automatizar a votação no BBB. No passado isso era possível usando Selenium, porém o mesmo estava automaticamente ativando o captcha e exigindo preenchimento do mesmo. A solução então foi um robô que encontrasse imagens na tela e clicasse, em outras palavras, um simulador do clique humano, só que sem precisarmos operar o mouse. Não trabalhaos em nenhuma solução em segundo plano, portanto, para usar a aplicação você não pode mexer na tela.
 
 ### O projeto
 O projeto usa as libs *pyautogui* para reconhecimento de imagens na tela e movimento do mouse e *PIL*.
